@@ -20,10 +20,4 @@ class Author
     @@post_counter+=1
   end
     
-    
-    
-  
-  
-  
-  
 end
