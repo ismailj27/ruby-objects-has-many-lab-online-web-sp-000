@@ -5,9 +5,11 @@ class Author
   def initialize (name)
     @name = name
     @author = author
-    @posts = posts
+    @posts = []
   end
   
+  def posts
+    
   
   
   
