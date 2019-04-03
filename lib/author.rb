@@ -5,16 +5,9 @@ class Author
   def initialize (title)
     @name = name
     @author = author
+    @posts = posts
   end
   
-  def name
-    pry
-    @name
-  end
-  
-  def posts
-    @posts
-  end
   
   
   
