@@ -13,5 +13,18 @@ class Post
   end
   
   def author_name 
+    if author
+      return author.name
+    else
+      return nil
+    end
+  end
     
+    def artist_name
+    if artist
+      return artist.name
+    else
+      return nil
+    end
+  end
 end
