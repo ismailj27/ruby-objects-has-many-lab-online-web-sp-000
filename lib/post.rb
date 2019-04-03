@@ -5,14 +5,6 @@ class Post
   def initialize (title)
     @title = title
   end
-  
-  
-  def name
-    @name
-  end
-  
-  def posts
-    @posts
-  end
+
   
 end
