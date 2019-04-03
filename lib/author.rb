@@ -21,11 +21,6 @@ class Author
   end
     
     
-    def add_song(song)
-    song.artist = self
-    @songs << song
-    @@song_counter+=1
-  end
     
   
   
