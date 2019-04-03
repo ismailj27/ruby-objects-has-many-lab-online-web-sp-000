@@ -20,11 +20,4 @@ class Post
     end
   end
     
-    def artist_name
-    if artist
-      return artist.name
-    else
-      return nil
-    end
-  end
 end
