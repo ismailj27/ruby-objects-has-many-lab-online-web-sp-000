@@ -12,7 +12,14 @@ class Author
     @posts
   end
   
-  def add_post
+  def add_post(post)
+    
+    
+    def add_song(song)
+    song.artist = self
+    @songs << song
+    @@song_counter+=1
+  end
     
   
   
