@@ -19,7 +19,7 @@ class Author
   
   def add_post(a_post)
     a_post.author = self
-    @posts << self
+    @posts << a_post
     @@post_counter+=1
   end
     
