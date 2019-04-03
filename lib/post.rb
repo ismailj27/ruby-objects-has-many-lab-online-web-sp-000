@@ -6,4 +6,13 @@ class Post
     @title = title
   end
   
+  
+  def name
+    @name
+  end
+  
+  def posts
+    @posts
+  end
+  
 end
