@@ -8,13 +8,6 @@ class Author
     @posts = posts
   end
   
-  def name
-    @name
-  end
-  
-  def posts
-    @posts
-  end
   
   
   
