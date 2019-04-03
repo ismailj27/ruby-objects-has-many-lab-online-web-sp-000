@@ -8,12 +8,15 @@ class Author
   end
   
   def name
+    pry
     @name
   end
   
   def posts
     @posts
   end
+  
+  
   
   
 end
